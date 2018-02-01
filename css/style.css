@@ -8,7 +8,7 @@ body{
   margin: 1.5%;
   display: flex;
   justify-content:space-between;
-  margin-bottom:9.5%;
+  margin-bottom:12vh;
 }
 .nev{
   display: flex;
@@ -49,12 +49,13 @@ body{
 }
 .goo{
   text-align: center;
+  width: 100%;
 }
 .g1>img{
-  width: 17%;
+  width: 18vw;
 }
 .g2>input{
-  margin-top: 3%;
+  margin-top:3vh;
   padding: 20px;
   width: 50%;
   border: 1px solid rgb(235, 227, 227);
@@ -78,13 +79,16 @@ body{
 .g4>p{
   margin-top: 1%;
   font-size: 1.1em;
+  color: gray;
 }
 .g4>p>span{
   
   color: blue;
 }
 .foter{
-  margin-top: 12%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
